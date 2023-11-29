@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34302.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Silo", "Silo\Silo.csproj", "{C48B4948-E263-49B4-A1E8-BEEA22AB2DBF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{94F276D0-8A93-40EB-BD4C-7AED1C78CC7D}"
+	ProjectSection(SolutionItems) = preProject
+		Secrets.json = Secrets.json
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeviceSimulator", "DeviceSimulator\DeviceSimulator.csproj", "{B9EC8BED-8A38-4E04-BF7E-24D09688C9ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C48B4948-E263-49B4-A1E8-BEEA22AB2DBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C48B4948-E263-49B4-A1E8-BEEA22AB2DBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C48B4948-E263-49B4-A1E8-BEEA22AB2DBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C48B4948-E263-49B4-A1E8-BEEA22AB2DBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9EC8BED-8A38-4E04-BF7E-24D09688C9ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9EC8BED-8A38-4E04-BF7E-24D09688C9ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9EC8BED-8A38-4E04-BF7E-24D09688C9ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9EC8BED-8A38-4E04-BF7E-24D09688C9ED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {73038A5A-7F4E-46E9-A8A2-3CB52C3028D7}
+	EndGlobalSection
+EndGlobal
